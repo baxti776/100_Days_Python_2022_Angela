@@ -33,4 +33,3 @@ while game_is_on:
     car_manager.move_cars()
 
 screen.exitonclick()
-# Add to GitHub
