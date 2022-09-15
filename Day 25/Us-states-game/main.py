@@ -34,3 +34,4 @@ while len(guessed_states) < 50:
         state_data = data[data.state == answer_state]
         t.goto(int(state_data.x), int(state_data.y))
         t.write(state_data.state.item())
+# It is a test
